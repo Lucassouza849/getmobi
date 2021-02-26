@@ -1,11 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background: #fff;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,5,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+
+.header h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+
+.title h1{
+    margin-left: 10%;
+
+}
+
+
 .showcase {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 200px 0;
-    flex-direction: column;
+    /* padding-top: 100px; */
 }
  
 .card_box {
@@ -50,14 +83,18 @@
 } 
 
 .content {
-    position: relative;
-    padding: 20px;
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
 }
 
 .content ul {
-    margin: 5px auto;
-    margin-left: -20px;
+    margin: 0px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .box .content img {
@@ -94,21 +131,63 @@
 
 .box .content h3 {
     margin: 0 0 2vh;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     color: #333333;
 }
 
 .box .content p {
-    margin: 0;
+
     padding: 0;
-    font-size: 1.2rem;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 
 .box .content li {
     margin: 0;
     padding: 0;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     list-style: circle;
+}
+
+/* TIME GETMOBI */
+
+.container-box-time {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* background: red; */
+    flex-direction: column;
+}
+
+.container-box-time2{
+    /* background: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.title-time {
+    width: 100%;
+    height: 200px;
+    /* background: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-time{
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 0 20px;
+}
+
+.box-time img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
